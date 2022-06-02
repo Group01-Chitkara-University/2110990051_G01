@@ -16,7 +16,10 @@ private:
    void Assign()
    {
     if((strcmp(Material,"COTTON")==0)||(strcmp(Material,"cotton")==0)||(strcmp(Material,"Cotton")==0))
-      {
+      {if((strcmp(Type,"TROUSER")==0)||(strcmp(Type,"Trouser")==0))
+	 {
+	    Price=1500;
+	 }
 	      }
       else
       {
